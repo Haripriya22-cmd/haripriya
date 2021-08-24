@@ -1,0 +1,23 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+body {
+	margin:0;
+padding:200px;
+background:url(image/r1.jpg);
+background-size:cover;
+background-position:center;
+font-family:sans-serif;
+
+}
+.btn
+{
+	margin-top:15px;
+	padding: 10px 50px;
+	font-size: 15px;
+	color: white;
+	background:rebeccapurple;
+	border: none;
+	border-radius: 5px;
+}

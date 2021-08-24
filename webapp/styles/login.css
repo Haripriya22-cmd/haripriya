@@ -1,0 +1,81 @@
+body{
+	margin:0;
+padding:0;
+background:url(r1.jpg);
+background-size:cover;
+background-position:center;
+font-family:sans-serif;
+
+	
+	
+	  
+	
+}  
+.loginbox{
+	width: 380px;
+	 height: 500px;
+	 background: rgba(44,62,80,0.7);
+	 color: #fff;
+	 top: 50%;
+	 left: 50%;
+	 position: absolute;
+	 transform:translate(-50%,-50%);
+	 box-sizing:border-box;
+	 padding: 80px 40px;
+}  
+#btn{
+	border: none;
+	 outline: none;
+	 
+	 background:rebeccapurple;
+	 color:#fff;
+	 font-size:20px;
+	 border-radius:30px;
+	 padding:12px;
+	 margin:22px;
+	 width:80%;
+	 text-align:center;
+	 
+}  
+
+	 h1{
+		 
+		 text-align:center;
+	 }
+	 .loginbox p{
+	 margin: 0px;
+	 padding: 0px;
+	 font-weight: bold:
+ }
+	 }
+	 input{
+	 width:50%;
+	 margin-bottom:20px;
+	 }
+	
+ 
+ .loginbox input[type="text"],input[type="password"]
+ {
+	 border:none;
+	 border-bottom: 1px solid #fff;
+	 background:transparent;
+	 outline:none;
+	 height:40px;
+	 color:#fff;
+	 font-size:20px;
+ }
+ .loginbox input[type="submit"]:hover
+ {
+	 cursor:pointer;
+	 background:#ffc107;
+	 color:#000;
+ }
+ .avatar
+ {
+	 border-radius:100px;
+	 margin-left:60px;
+	 margin-top:-160px;
+	 margin-bottom:50px;
+ }
+ 
+ 

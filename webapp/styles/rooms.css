@@ -1,0 +1,43 @@
+* {
+	margin: 0px;
+	padding: 0px 0px;
+}
+body {
+	margin:0;
+padding:100px;
+background:url(image/r1.jpg);
+padding-left:150px;
+text-align:left;
+padding-right:600px;
+background-size:cover;
+background-position:fill;
+font-family:sans-serif;
+
+}
+
+#header 
+	
+{
+	
+	
+	padding:30px;
+	background-color:#663399a6;
+margin-left: -150px;
+margin-top: -100px;
+    width: 1750px;
+
+}
+.container
+{
+	padding:60px;
+}
+.table 
+{
+	padding:50px;
+	padding-right:100px;
+	padding-left:50px;
+	background-color:#9e9e9ec9 ;
+	text-align:center;
+	color:white;
+	padding-left:-300px;
+}

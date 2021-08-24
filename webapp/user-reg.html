@@ -1,0 +1,42 @@
+<html>
+<head>
+	<title>Registration form</title>
+	<script async src="./javascript/phone.js">
+    
+  </script>
+	<link rel="stylesheet" type="text/css" href="styles/sign.css">
+</head>
+<body>
+	<div class="registration-form">
+	<div class="header">
+		<h1>USER SIGNUP</h1>
+		</div>
+		
+		<form action="user-regcon.php" method="POST" name="sign">
+		<div class="input-group">
+			<p> NAME:</p>
+			<input type="text" name="name" placeholder="name" required>
+			<p>Email:</p>
+			<input type="email" name="email" placeholder="email" required>
+			<p>phone number:</p>
+			<input type="text" name="phone" placeholder="phone-number" required>
+			<p>  
+                <label> OTP: </label>  
+               <input type=button onClick="parent.location='otp.html'"
+ value='generate otp'>
+            </p> 
+<p>  
+                
+		
+			<p> OTP Password:</p>
+			<input type="password" name="password" placeholder="password" id="pass" required>
+			<p id="demo"></p>
+			<br>
+			</div>
+			<button class="btn" type="submit" >register</button>
+        </form>
+		
+	</div>
+
+</body>
+</html>
